@@ -196,13 +196,13 @@ main .icon-list > li.facebook {
 main .icon-list > li.facebook:hover {
 	background: #3b5998;
 }
-main .icon-list > li.github {
+-main .icon-list > li.github {
 -	border:none;
 -	color: #333;
 -}
 -
 -main .icon-list > li.github:hover {
--	background: #000000;
+-	background: #767676;
 -}
 
 main .icon-list > li.med {
