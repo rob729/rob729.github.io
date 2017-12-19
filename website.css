@@ -162,7 +162,7 @@ main .icon-list > li:hover > a {
 }
 
 main .icon-list > li.twitter {
-	border-color: #1da1f2;
+	border:none;
 	color: #1da1f2;
 }
 
@@ -171,7 +171,7 @@ main .icon-list > li.twitter:hover {
 }
 
 main .icon-list > li.linkedin {
-	border-color: #0976b4;
+	border:none;
 	color: #0976b4;
 }
 
@@ -180,7 +180,7 @@ main .icon-list > li.linkedin:hover {
 }
 
 .icon-list > li.quora {
-	border-color: #a62100;
+	border:none;
 	color: #a62100;
 }
 
@@ -189,7 +189,7 @@ main .icon-list > li.quora:hover {
 }
 
 main .icon-list > li.facebook {
-	border-color: #3b5998;
+	border:none;
 	color: #3b5998;
 }
 
@@ -207,7 +207,7 @@ main .icon-list > li.instagram:hover {
 }
 
 main .icon-list > li.github {
-	border-color: #333;
+	border:none;
 	color: #333;
 }
 
@@ -225,7 +225,7 @@ main .icon-list > li.youtube:hover {
 }
 
 main .icon-list > li.email {
-	border-color: #777;
+	border:none;
 	color: #777;
 }
 
@@ -234,7 +234,7 @@ main .icon-list > li.email:hover {
 }
 
 main .icon-list > li.stack {
-	border-color: #FF9900;
+	border:none;
 	color: #FF9900
 ;
 }
