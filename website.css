@@ -179,13 +179,13 @@ main .icon-list > li.linkedin:hover {
 	background: #0976b4;
 }
 
-.icon-list > li.quora {
+main .icon-list > li.med {
 	border:none;
-	color: #a62100;
+	color: #00ab6b;
 }
 
-main .icon-list > li.quora:hover {
-	background: #a62100;
+main .icon-list > li.med:hover {
+	background: #00ab6b;
 }
 
 main .icon-list > li.facebook {
