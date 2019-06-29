@@ -233,6 +233,15 @@ main .icon-list > li.email:hover {
 	background: #777;
 }
 
+main .icon-list > li.resume {
+	border:none;
+	color: #777;
+}
+
+main .icon-list > li.resume:hover {
+	background: #777;
+}
+
 main .icon-list > li.stack {
 	border:none;
 	color: #FF9900
