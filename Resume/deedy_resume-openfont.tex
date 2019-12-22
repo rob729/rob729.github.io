@@ -1,0 +1,278 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Robin}{Singh}{ \urlstyle{same}\url{http://rob729.github.io} \\
+\href{mailto:17uec098@lnmiit.ac.in}{17uec098@lnmiit.ac.in} | 7011028780
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{THE LNM INSTITUTE OF \\ INFORMATION TECHNOLOGY}
+\descript{BTech in Electronics and Communication}
+\location{Expected May 2021 | Jaipur, India \\ CGPA: 8.06 (Till 4th Semester)}
+\sectionsep
+
+\subsection{AVB Public School}
+\location{SENIOR SECONDARY-CBSE}
+\location{2017 | NEW DELHI | 91.6\%}
+\sectionsep
+
+\subsection{AVB Public School}
+\location{SECONDARY-CBSE}
+\location{2015 | NEW DELHI | 10 CGPA}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/rob729}{\custombold{rob729}} \\
+LinkedIn:// \href{http://www.linkedin.com/in/rob729}{\custombold{Robin Singh}} \\
+Website:// \href{https://rob729.github.io/}{\custombold{rob729}} \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+% \subsection{Graduate}
+% Advanced Machine Learning \\
+% Open Source Software Engineering \\
+% Advanced Interactive Graphics \\
+% Compilers + Practicum \\
+% Cloud Computing \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+% Information Retrieval \\
+% Operating Systems \\
+% Artificial Intelligence + Practicum \\
+% Functional Programming \\
+% Computer Graphics + Practicum \\
+% {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+% Unix Tools and Scripting \\
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+C++ \textbullet{} Java \textbullet{}  Kotlin \textbullet{} XML\\
+\sectionsep
+\subsection{Database}
+ Firebase Realtime Database \& Firestore\\ \textbullet{} SQLite \textbullet{} Room Database 
+ \sectionsep
+ \subsection{Tools/Lib}
+ Retrofit \textbullet{} Android Jetpack\\ \textbullet{} Firebase \textbullet{} Glide \textbullet{} Ktlint
+ \sectionsep
+ \subsection{Others}
+ GIT \textbullet{} \LaTeX
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{GirlScript Summer of Code' 19}
+\descript{ |\href{https://drive.google.com/file/d/1P-Bkm2urz8dzoaHEL_PQHsXZy_C_F-yG/view?usp=sharing}{\custombold{ Certificate of Recognition}} |\href{https://drive.google.com/file/d/1l3HROm-tKX33LRLlhTGnIVjN4-FnCyr5/view?usp=sharing}{\custombold{ Letter of Recommendation}} }
+\location{Mar 2019 - May 2019}\
+\begin{tightemize}\item Among the top 15 out of 220+ contributors who participated in the program.
+\item Contributed to  android app related open source projects by solving the issues present in them.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{NJack Winter of Code'18}
+\descript{ |\href{https://drive.google.com/open?id=0BxyuRCVf8ibGNFBfQjk2X0lSU3ZiSExGaDBSS09UTVlHWllv}{\custombold{ Certificate of Accomplishment}} }
+\location{Dec 2018 - Jan 2019}
+\begin{tightemize}\item Contributed to various android related open source projects by solving the issues in the projects.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Kharagpur Winter of Code'18}
+\descript{ | \href{https://kossiitkgp.org/public-files/KWoC/2018-Certificates/KWoC18-Robin\%20Singh.pdf}{\custombold{Certificate of Accomplishment}} }
+ \location{Dec 2018 - Jan 2019}
+\begin{tightemize}\item Contributed to various android related open source projects by solving the issues in the projects. \href{https://medium.com/@rs729028/kharagpur-winter-of-code-my-start-to-open-source-contributions-ff8dc78d9b7c}{KWoC Report}
+\end{tightemize}
+\sectionsep
+
+
+
+\section{Projects}
+
+\runsubsection{Quiet Hours}
+\descript{| Android App | \href{https://play.google.com/store/apps/details?id=com.rob729.quiethours}{\custombold{Play Store Link}} |\href{https://github.com/rob729/Quiet_Hours}{\custombold{ Github Link}} }
+ \location{May 2019}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item Quiet hours automatically enable/disable your mobile's silent mode for particular times and days.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{News App}
+\descript{| Android App |\href{https://github.com/rob729/News}{\custombold{ Github Link}} }
+ \location{March 2019}
+\begin{tightemize}\item News App is an android app written completely in kotlin which helps users to discover trending stories and the latest world news from various news source. It uses NewsAPI to fetch data from internet.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Speculo}
+\descript{| Android App |\href{https://github.com/rob729/Speculo}{\custombold{ Github Link}} }
+ \location{Nov 2018}
+\begin{tightemize}\item Speculo gives the user the power of scanning text from anywhere(using the camera) and user can extract the text like website url ,email-Id and copy that text and use as and when required.
+\end{tightemize}
+\sectionsep
+
+
+% \runsubsection{Google}
+% \descript{| Software Engineering Intern }
+% \location{May 2013 – Aug 2013 | Mountain View, CA}
+% \begin{tightemize}
+% \item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
+% \sectionsep
+
+% \runsubsection{Phabricator}
+% \descript{| Open Source Contributor \& Team Leader}
+% \location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+% \begin{tightemize}
+% \item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Research}
+% \runsubsection{Cornell Robot Learning Lab}
+% \descript{| Head Undergrad Research}
+% \location{Jan 2014 – Present | Ithaca, NY}
+% Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+% \sectionsep
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Organizations} 
+
+\runsubsection{Fossasia}
+\descript{| Open Source contributor |\href{https://bit.ly/333bQzj}{\custombold{ List of Merged PR}} }
+\begin{tightemize}\item Worked on the open event attendee android app and solve some issues present in the app.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{MindOrks}
+\begin{tightemize}\item Technical Writer at MindOrks Medium publication
+\end{tightemize}
+\sectionsep
+
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2017-2018 	&  Active Member    & Cybros | App Development Divison | LNMIIT\\
+% \end{tabular}
+% \sectionsep
+
+\end{minipage} 
+\end{document}
