@@ -275,3 +275,16 @@ main footer {
 main footer .heart {
 	color: #f95959;
 }
+
+.top-right {
+	position: fixed;
+	top: 16px;
+	right: 16px;
+	padding: 10px;
+	border-radius: 8px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	background-color: rgba(0, 0, 0, 0.05);
+	color: black;
+	font-size: 14px;
+}
